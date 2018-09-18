@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  regoin: 'us-west-1'
+  region: 'us-west-1'
   app: 'docker2'
   env: 'Docker2-env'
   bucket_name: 'elasticbeanstalk-us-west-1-169988050228'
